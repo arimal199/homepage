@@ -4,7 +4,7 @@ const { i18n } = require('./i18n');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "export",
+  output: "standalone",
   images: {
     domains: ["cdn.jsdelivr.net"],
     unoptimized: true,
