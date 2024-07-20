@@ -3,7 +3,7 @@ const { i18n } = require('next-export-i18n');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "standalone",
+  output: "export",
   images: {
     domains: ["cdn.jsdelivr.net"],
     unoptimized: true,
